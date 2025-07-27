@@ -1,0 +1,21 @@
+{
+  "name": "number-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-ctrl-code/story.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-ctrl-code/number/issues"
+  },
+  "homepage": "https://github.com/Lucas-ctrl-code/number#readme",
+  "description": ""
+}

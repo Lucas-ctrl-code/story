@@ -1,0 +1,12 @@
+{
+  "name": "story-1",
+  "version": "1.0.0",
+  "description": "A story-driven interactive HTML project.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

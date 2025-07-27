@@ -1,7 +1,69 @@
 <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>故事解谜</title>
-  <link rel="icon"href="https://raw.githubusercontent.com/Lucas-ctrl-code/story/64c980f9f778002cde1dce0763436dfbd22e7c2e/public/reshot-icon-happy-2HWFTLAJK9.svg" type="image/svg+xml">
+  <title>冰人文明</title>
+  <style>
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(270deg, rgba(0, 255, 255, 0.4), rgba(0, 128, 255, 0.4), rgba(255, 0, 255, 0.4));
+      background-size: 600% 600%;
+      animation: gradientMove 15s ease infinite;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 4em;
+      color: white;
+      text-shadow: 2px 2px 10px #00000088;
+      margin-bottom: 50px;
+    }
+
+    .start-button {
+      padding: 15px 30px;
+      font-size: 1.5em;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 2px solid white;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+      text-decoration: none;
+    }
+
+    .start-button:hover {
+      background-color: blue;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
+<body>
+  <h1>冰人文明</h1>
+    <button class="start-button" onclick="startGame()">开始游戏</button>
+
+  <script>
+    function startGame() {
+      alert("解谜开始");
+      window.location.href = "1.vue";  
+    }
+    </script>
+</body>
+</html>
